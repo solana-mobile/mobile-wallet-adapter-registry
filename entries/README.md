@@ -1,0 +1,1 @@
+Wallet registry entries should be added here. The recommended file name for an entry is `<wallet_name>-<platform>.json`, for e.g. `foowallet-android.json`.
