@@ -1,0 +1,10 @@
+{
+    "name": "Foo Wallet",
+    "entity": "Foo Ltd.",
+    "url": " ",
+    "icon": "/favicon.ico",
+    "protocol_specification_version": "1.0",
+    "android": {
+        "application_id": "com.baz.bar.foo"
+    }
+}
