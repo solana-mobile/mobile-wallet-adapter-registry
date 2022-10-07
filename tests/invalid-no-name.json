@@ -1,0 +1,9 @@
+{
+    "entity": "Foo Ltd.",
+    "url": "https://foo.bar.baz.com",
+    "icon": "/favicon.ico",
+    "protocol_specification_version": "1.0",
+    "android": {
+        "application_id": "com.baz.bar.foo"
+    }
+}

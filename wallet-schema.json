@@ -1,0 +1,48 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "https://solanamobile.com/mwa-wallet-registry-v1-0.json",
+    "title": "Mobile Wallet Adapter wallet registry entry",
+    "description": "A wallet app supporting the Mobile Wallet Adapter protocol specification",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+        },
+        "entity": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+        },
+        "url": {
+            "type": "string",
+            "format": "uri"
+        },
+        "icon": {
+            "type": "string",
+            "format": "uri-reference"
+        },
+        "protocol_specification_version": {"enum": [ "1.0" ] },
+        "android": {
+            "type": "object",
+            "properties": {
+                "application_id": {
+                    "type": "string",
+                    "pattern": "^([a-zA-Z][a-zA-Z0-9_]*\\.)+[a-zA-Z][a-zA-Z0-9_]*$"
+                }
+            },
+            "required": [ "application_id" ]
+        },
+        "ios": {
+            "$comment": "iOS schema is not yet implemented (as MWA support for iOS is not complete)",
+            "type": "object",
+            "not": true
+        }
+    },
+    "oneOf": [
+        { "required": ["android"] },
+        { "required": ["ios"] }
+    ],
+    "required": [ "name", "entity", "url", "icon", "protocol_specification_version" ]
+}
