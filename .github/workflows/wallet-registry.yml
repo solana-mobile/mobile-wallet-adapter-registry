@@ -1,0 +1,30 @@
+name: Wallet Registry schema validation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-wallet-registry:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Setup
+      - uses: actions/checkout@v3
+      - name: set up Node.js 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'npm'
+      - name: Install npm packages
+        run: npm ci --ignore-scripts
+      
+      # Run schema unit tests
+      - name: Test schema validity
+        run: ./run-tests.sh
+      
+      # Validate wallet registry entries
+      - name: Validate wallet registry entries
+        run: ./validate-entries.sh
