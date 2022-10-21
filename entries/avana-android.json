@@ -2,7 +2,7 @@
   "name": "Avana",
   "entity": "Avana Wallet LLC",
   "url": "https://www.avanawallet.com",
-  "icon": "https://www.avanawallet.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Favana-wallet-outline.5adda5e3.png&w=640&q=75",
+  "icon": "/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Favana-wallet-outline.5adda5e3.png&w=640&q=75",
   "protocol_specification_version": "1.0",
   "android": {
     "application_id": "com.avana.wallet"
