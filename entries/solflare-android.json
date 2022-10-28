@@ -1,0 +1,10 @@
+{
+    "name": "Solflare",
+    "entity": "Solflare",
+    "url": "https://solflare.com",
+    "icon": "https://solflare.com/assets/logo-icon.26659b6d..svg",
+    "protocol_specification_version": "1.0",
+    "android": {
+      "application_id": "com.solflare.mobile"
+    }
+}
