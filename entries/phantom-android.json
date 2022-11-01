@@ -1,0 +1,10 @@
+{
+    "name": "Phantom",
+    "entity": "Phantom",
+    "url": "https://phantom.app",
+    "icon": "https://phantom.app/img/logo_large.png",
+    "protocol_specification_version": "1.0",
+    "android": {
+      "application_id": "app.phantom"
+    }
+}
