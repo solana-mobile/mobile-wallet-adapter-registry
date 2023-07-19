@@ -2,7 +2,7 @@
     "name": "Phantom",
     "entity": "Phantom",
     "url": "https://phantom.app",
-    "icon": "https://phantom.app/img/logo_large.png",
+    "icon": "https://static.phantom.app/assets/mwa-logo.png",
     "protocol_specification_version": "1.0",
     "android": {
       "application_id": "app.phantom"
