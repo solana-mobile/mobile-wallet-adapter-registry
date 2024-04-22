@@ -1,0 +1,10 @@
+{
+    "name": "Exodus",
+    "entity": "Exodus",
+    "url": "https://www.exodus.com/",
+    "icon": "https://www.exodus.com/brand/img/logo.svg",
+    "protocol_specification_version": "1.0",
+    "android": {
+      "application_id": "exodusmovement.exodus"
+    }
+}
