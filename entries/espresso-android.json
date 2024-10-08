@@ -2,7 +2,7 @@
   "name": "Espresso Cash",
   "entity": "Espresso Cash",
   "url": "https://www.espressocash.com/",
-  "icon": "https://raw.githubusercontent.com/espresso-cash/espresso-cash-public/master/packages/espressocash_app/saga_publishing/launcher.png",
+  "icon": "https://raw.githubusercontent.com/espresso-cash/espresso-cash-public/5ead4e3a5e6ceb8358cefae62f91f3394a41212f/packages/espressocash_app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
   "protocol_specification_version": "1.0",
   "android": {
     "application_id": "com.pleasecrypto.flutter"
