@@ -1,0 +1,10 @@
+{
+  "name": "Backpack",
+  "entity": "Backpack",
+  "url": "https://backpack.app/",
+  "icon": "https://backpack.app/app-logo-rounded.svg",
+  "protocol_specification_version": "1.0",
+  "android": {
+    "application_id": "app.backpack.mobile"
+  }
+}
