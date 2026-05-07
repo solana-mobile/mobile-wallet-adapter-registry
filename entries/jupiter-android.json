@@ -1,0 +1,10 @@
+{
+  "name": "Jupiter Mobile",
+  "entity": "Jupiter",
+  "url": "https://jup.ag/mobile",
+  "icon": "https://jup.ag/svg/jupiter-logo.svg",
+  "protocol_specification_version": "1.0",
+  "android": {
+    "application_id": "ag.jup.jupiter.android"
+  }
+}
