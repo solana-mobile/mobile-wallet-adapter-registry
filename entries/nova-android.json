@@ -1,0 +1,10 @@
+{
+  "name": "Nova",
+  "entity": "Nova Technologies",
+  "url": "https://www.nov.ag",
+  "icon": "https://www.nov.ag/assets/nova-wallet-app-icon-CDB2Rd45.png",
+  "protocol_specification_version": "1.0",
+  "android": {
+    "application_id": "com.novawallet.android"
+  }
+}
